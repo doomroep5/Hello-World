@@ -1,0 +1,32 @@
+# Requirements for building PEPs with Sphinx
+Pygments >= 2.9.0
+# Sphinx 6.1.0 broke copying images in parallel builds; fixed in 6.1.2
+# See https://github.com/sphinx-doc/sphinx/pull/11100
+Sphinx >= 5.1.1, != 6.1.0, != 6.1.1
+docutils >= 0.19.0
+
+# For tests
+pytest
+pytest-cov
+distlib==0.3.6
+filelock==3.9.0
+nvidia-cublas-cu12==12.1.0.26
+nvidia-cuda-cupti-cu12==12.1.62
+nvidia-cuda-nvcc-cu12==12.1.66
+nvidia-cuda-nvrtc-cu12==12.1.55
+nvidia-cuda-runtime-cu12==12.1.55
+nvidia-cuda-sanitizer-api-cu12==12.1.55
+nvidia-cufft-cu12==11.0.2.4
+nvidia-curand-cu12==10.3.2.56
+nvidia-cusolver-cu12==11.4.4.55
+nvidia-cusparse-cu12==12.0.2.55
+nvidia-npp-cu12==12.0.2.50
+nvidia-nvjitlink-cu12==12.1.55
+nvidia-nvjpeg-cu12==12.1.0.39
+nvidia-nvml-dev-cu12==12.1.55
+nvidia-nvtx-cu12==12.1.66
+nvidia-pyindex==1.0.9
+platformdirs==3.1.0
+py==1.11.0
+somepackage==1.2.3
+virtualenv==20.20.0

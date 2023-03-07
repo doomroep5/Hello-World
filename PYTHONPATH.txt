@@ -1,0 +1,1 @@
+﻿C:\Users\Apidwalin;C:\Users\Apidwalin\AppData\Roaming\Python;C:\Users\Apidwalin\AppData\Roaming\Python\Scripts;C:\Users\Apidwalin\AppData\Roaming\Python\site-packages
